@@ -1,0 +1,17 @@
+# Exclude build artifacts
+# Do not edit manually
+# See https://github.com/github/linguist
+*.html linguist-vendored
+*.sh text eol=lf
+
+public/* linguist-vendored
+*.bat text eol=crlf
+*.gif binary
+app/**/*.tsx linguist-detectable
+*.md linguist-documentation
+*.tsx linguist-detectable
+
+*.json linguist-detectable=false
+*.jpg binary
+*.woff2 binary
+# eof a49169dd
